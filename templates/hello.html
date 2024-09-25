@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sentiment Checker</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='hello.css') }}">
+
+</head>
+<body>
+
+    <h1>Sentiment Checker</h1>
+
+    <form action="/feedback" method="post">
+        <textarea name="text" placeholder="Enter your string here..."></textarea><br>
+        <input type="submit" value="Check Sentiment">
+    </form>
+
+    <h2>Sentiment Polarity: {{ value }}</h2>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 80px;
+    background-color: #A5D6D9;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+form{
+    margin-top: 70px;
+    text-align: center;
+}
+
+textarea {
+    width: 40vw;
+    height: 16vh;
+    margin-bottom: 20px;
+    background-color: #D3E7E9;
+    border: 3px solid black;
+    font-size: 14px;
+}
+
+input[type="submit"]{
+    width: 15vw;
+    height: 6vh;
+    text-align: center;
+    font-size: 16px;
+    background-color: #3B666B;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #4d7980;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
